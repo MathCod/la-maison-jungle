@@ -1,12 +1,23 @@
 .lmj-banner {
+	display: flex;
 	color: black;
-	text-align: right;
 	padding: 32px;
 	border-bottom: solid 3px black;
+	flex-direction: column;
+}
+
+.lmj-banner-row {
 	display: flex;
-	justify-content: flex-end;
 	flex-direction: row;
 	align-items: center;
+	text-align: right;
+	justify-content: flex-end;
+}
+
+.lmj-recommendation {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 .lmj-title {
